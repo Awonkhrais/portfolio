@@ -179,6 +179,7 @@ class Landing extends React.Component {
                             className="mt-4"
                             color="primary"
                             href="https://galleryofhornss.netlify.app/"
+                            target="_blank"
                           // onClick={e => e.preventDefault()}
                           >
                             VIEW SITE
@@ -220,6 +221,7 @@ class Landing extends React.Component {
                             className="mt-4"
                             color="success"
                             href="https://car-dealer-shop.github.io/Car-Shop/"
+                            target="_blank"
                             // onClick={e => e.preventDefault()}
                           >
                             VIEW SITE
@@ -263,6 +265,7 @@ class Landing extends React.Component {
                             className="mt-4"
                             color="warning"
                             href="https://bussmall.netlify.app/"
+                            target="_blank"
                             // onClick={e => e.preventDefault()}
                           >
                             VIEW SITE
