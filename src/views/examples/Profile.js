@@ -23,7 +23,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/team-4-800x800.jpg";
+import profile from "assets/img/theme/profile pic.jpg";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -88,70 +88,64 @@ class Profile extends React.Component {
                         <Button
                           className="mr-4"
                           color="info"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          href="tel:+962798637583"
+                          // onClick={e => e.preventDefault()}
                           size="sm"
                         >
-                          Connect
+                          Call me
                         </Button>
                         <Button
                           className="float-right"
                           color="default"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          href="mailto: awonkhrais@gmail.com"
+                          // onClick={e => e.preventDefault()}
                           size="sm"
                         >
-                          Message
+                          Send Email 
                         </Button>
                       </div>
                     </Col>
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">22</span>
-                          <span className="description">Friends</span>
+                          <span className="heading">3</span>
+                          <span className="description">Projects</span>
                         </div>
                         <div>
-                          <span className="heading">10</span>
-                          <span className="description">Photos</span>
+                          <span className="heading">2 month</span>
+                          <span className="description">Experience</span>
                         </div>
-                        <div>
-                          <span className="heading">89</span>
-                          <span className="description">Comments</span>
-                        </div>
+                        
                       </div>
                     </Col>
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jessica Jones{" "}
-                      <span className="font-weight-light">, 27</span>
+                      Awon Khrais{" "}
+                      <span className="font-weight-light">, 25</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                      Irbid, Jordan
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      Software Developer - Full stack Developer Traniee At ASAC
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Computer Science
+                      Yarmouk University
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                        My major field is civil enginering , I have a BA form Yarmouk university .Now I am
+                        studying software development in ASAC , skilled in HTML , CSS , programming languages JavaScript and ReactJS.
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
-                          Show more
+                  
                         </a>
                       </Col>
                     </Row>

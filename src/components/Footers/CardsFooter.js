@@ -39,7 +39,7 @@ class CardsFooter extends React.Component {
     return (
       <>
         <footer className="footer has-cards">
-          <Container className="container-lg">
+          {/* <Container className="container-lg">
             <Row>
               <Col className="mb-5 mb-md-0" md="6">
                 <Card className="card-lift--hover shadow border-0">
@@ -62,12 +62,12 @@ class CardsFooter extends React.Component {
                 </Card>
               </Col>
             </Row>
-          </Container>
+          </Container> */}
           <Container>
             <Row className="row-grid align-items-center my-md">
               <Col lg="6">
                 <h3 className="text-primary font-weight-light mb-2">
-                  Thank you for supporting us!
+                Thank you for visiting my site!
                 </h3>
                 <h4 className="mb-0 font-weight-light">
                   Let's get in touch on any of these platforms.
@@ -77,21 +77,21 @@ class CardsFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle"
                   color="twitter"
-                  href="https://twitter.com/creativetim"
+                  href="https://www.linkedin.com/in/awonkhrais/"
                   id="tooltip475038074"
                   target="_blank"
                 >
                   <span className="btn-inner--icon">
-                    <i className="fa fa-twitter" />
+                    <i className="fa fa-linkedin" />
                   </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip475038074">
-                  Follow us
+                  Connect with me
                 </UncontrolledTooltip>
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="facebook"
-                  href="https://www.facebook.com/creativetim"
+                  href="https://www.facebook.com/awon.khrais/"
                   id="tooltip837440414"
                   target="_blank"
                 >
@@ -100,26 +100,12 @@ class CardsFooter extends React.Component {
                   </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip837440414">
-                  Like us
-                </UncontrolledTooltip>
-                <Button
-                  className="btn-icon-only rounded-circle ml-1"
-                  color="dribbble"
-                  href="https://dribbble.com/creativetim"
-                  id="tooltip829810202"
-                  target="_blank"
-                >
-                  <span className="btn-inner--icon">
-                    <i className="fa fa-dribbble" />
-                  </span>
-                </Button>
-                <UncontrolledTooltip delay={0} target="tooltip829810202">
-                  Follow us
+                  Add me
                 </UncontrolledTooltip>
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="github"
-                  href="https://github.com/creativetimofficial"
+                  href="https://github.com/Awonkhrais"
                   id="tooltip495507257"
                   target="_blank"
                 >
@@ -128,7 +114,7 @@ class CardsFooter extends React.Component {
                   </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip495507257">
-                  Star on Github
+                Check out my Github
                 </UncontrolledTooltip>
               </Col>
             </Row>
@@ -141,12 +127,12 @@ class CardsFooter extends React.Component {
                     href="https://www.creative-tim.com?ref=adsr-footer"
                     target="_blank"
                   >
-                    Creative Tim
+                    Awon khrais
                   </a>
                   .
                 </div>
               </Col>
-              <Col md="6">
+              {/* <Col md="6">
                 <Nav className="nav-footer justify-content-end">
                   <NavItem>
                     <NavLink
@@ -181,7 +167,7 @@ class CardsFooter extends React.Component {
                     </NavLink>
                   </NavItem>
                 </Nav>
-              </Col>
+              </Col> */}
             </Row>
           </Container>
         </footer>
